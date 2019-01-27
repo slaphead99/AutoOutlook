@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# SharpDevelop 5.1
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapping", "Mapping.csproj", "{96BEFECD-D798-E140-8414-30ED2F063B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookUIExampleTest", "..\..\teststack.white.outlook.demo\OutlookUIExampleTest\OutlookUIExampleTest.csproj", "{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96BEFECD-D798-E140-8414-30ED2F063B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BEFECD-D798-E140-8414-30ED2F063B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BEFECD-D798-E140-8414-30ED2F063B87}.Debug|x64.ActiveCfg = Debug|x64
+		{96BEFECD-D798-E140-8414-30ED2F063B87}.Debug|x64.Build.0 = Debug|x64
+		{96BEFECD-D798-E140-8414-30ED2F063B87}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{96BEFECD-D798-E140-8414-30ED2F063B87}.Debug|x86.Build.0 = Debug|Any CPU
+		{96BEFECD-D798-E140-8414-30ED2F063B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BEFECD-D798-E140-8414-30ED2F063B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BEFECD-D798-E140-8414-30ED2F063B87}.Release|x64.ActiveCfg = Release|Any CPU
+		{96BEFECD-D798-E140-8414-30ED2F063B87}.Release|x64.Build.0 = Release|Any CPU
+		{96BEFECD-D798-E140-8414-30ED2F063B87}.Release|x86.ActiveCfg = Release|Any CPU
+		{96BEFECD-D798-E140-8414-30ED2F063B87}.Release|x86.Build.0 = Release|Any CPU
+		{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}.Debug|x64.ActiveCfg = Debug|x64
+		{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}.Debug|x64.Build.0 = Debug|x64
+		{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}.Debug|x86.ActiveCfg = Debug|x86
+		{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}.Debug|x86.Build.0 = Debug|x86
+		{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}.Release|x64.ActiveCfg = Release|x64
+		{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}.Release|x64.Build.0 = Release|x64
+		{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}.Release|x86.ActiveCfg = Release|x86
+		{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
