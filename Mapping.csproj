@@ -71,7 +71,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\teststack.white.outlook.demo\OutlookUIExampleTest\OutlookUIExampleTest.csproj">
+    <ProjectReference Include="teststack.white.outlook.demo\OutlookUIExampleTest\OutlookUIExampleTest.csproj">
       <Project>{e04d4459-bc9f-4794-9cc0-3f4012cadbc4}</Project>
       <Name>OutlookUIExampleTest</Name>
     </ProjectReference>
