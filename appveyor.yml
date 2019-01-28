@@ -13,12 +13,3 @@ before_build:
   # Test if this should deploy
   #     we don't want to deploy anything that is not on master
 nuget restore
-
-<pre><code>
-I want `deploy` only to be executed when on branch `master`.
-I would write a PS script in `before_deploy` to test this.
-But what kind of code would `before_deploy` have to execute to skip `deploy` without failing the build job?
-
-How can I make the `artifacts` dependent on how the branch?
-My goal is to set this up so that nothing apart from `master` can be deployed</code>
-</pre>
