@@ -2,14 +2,4 @@ version: 1.0.{build}
 
 image: Visual Studio 2015
 
-  # This performs the following actions:
-  #  - build source
-  #  - run tests against result of build
-  #  - creates a zip from release
-  #  - create nupkg for deployment
-
-
-before_build:  
-  # Test if this should deploy
-  #     we don't want to deploy anything that is not on master
-nuget restore
+before_build:  nuget restore
