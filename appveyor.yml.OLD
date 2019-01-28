@@ -9,11 +9,27 @@ image: Visual Studio 2015
   #  - create nupkg for deployment
 
 
-before_build:  
+before_deploy:  
   # Test if this should deploy
   #     we don't want to deploy anything that is not on master
-	nuget restore
+  - ps: '& $env:posh -Command "Should this deploy??"'
 
+deploy:  
+  - provider: NuGet
+    server: https://my.nuget.server/feed
+    api_key:
+      secure: FYWX6NfjZIVw==
+    skip_symbols: false
+    symbol_server: https://your.symbol.server/feed
+    artifact: MyPackage.nupkg
+
+  - provider: GitHub
+    artifact: /.*\.zip/
+    draft: false
+    prerelease: false
+    on:
+      branch: master
+      appveyor_repo_tag: true
 <pre><code>
 I want `deploy` only to be executed when on branch `master`.
 I would write a PS script in `before_deploy` to test this.
