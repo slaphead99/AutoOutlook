@@ -1,5 +1,5 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+//using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 
 using TestStack.White;
@@ -12,10 +12,10 @@ using System.Linq;
 
 namespace OutlookUIExampleTest
 {
-    [TestClass]
+   // [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
+       // [TestMethod]
         public void TestMethod1()
         {
             // launch Outlook 2016 x86
