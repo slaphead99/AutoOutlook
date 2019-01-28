@@ -12,7 +12,7 @@ image: Visual Studio 2015
 before_build:  
   # Test if this should deploy
   #     we don't want to deploy anything that is not on master
-	nuget restore
+nuget restore
 
 <pre><code>
 I want `deploy` only to be executed when on branch `master`.
