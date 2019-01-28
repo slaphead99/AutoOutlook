@@ -1,9 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2013">
-  <ItemGroup>
-    <ProjectToBuild Include="Mapping.csproj" />    
-  </ItemGroup>
-  <Target Name="Build">
-    <MSBuild Projects="@(ProjectToBuild)"/>
-  </Target>
-</Project>
+version: 1.0.{build}
+image: Visual Studio 2017
+test: off
