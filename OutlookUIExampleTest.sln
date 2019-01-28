@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookUIExampleTest", "OutlookUIExampleTest\OutlookUIExampleTest.csproj", "{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookUIExampleTest", "UI\OutlookUIExampleTest\OutlookUIExampleTest.csproj", "{E04D4459-BC9F-4794-9CC0-3F4012CADBC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapping", "..\Mapping\Mapping.csproj", "{96BEFECD-D798-E140-8414-30ED2F063B87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapping", "Mapping\Mapping.csproj", "{96BEFECD-D798-E140-8414-30ED2F063B87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
