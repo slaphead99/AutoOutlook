@@ -71,12 +71,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UI\OutlookUIExampleTest\OutlookUIExampleTest.csproj">
-      <Project>{e04d4459-bc9f-4794-9cc0-3f4012cadbc4}</Project>
-      <Name>OutlookUIExampleTest</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +83,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UI\OutlookUIExampleTest\OutlookUIExampleTest.csproj">
+      <Project>{e04d4459-bc9f-4794-9cc0-3f4012cadbc4}</Project>
+      <Name>OutlookUIExampleTest</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
